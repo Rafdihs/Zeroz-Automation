@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature" time="97.944" tests="3" failures="2" errors="0">
+   <testsuite name="Feature" tests="3" failures="2" errors="0" time="97.944" skipped="0" timestamp="2021-11-11 08:44:39" hostname="ASUS - LAPTOP-1SCL03AA" id="Test Suites/Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\Zeroz\\Reports\\20211111_084429\\Feature\\20211111_084429"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\Zeroz\\Reports\\20211111_084429\\Feature\\20211111_084429\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\Katalon Studio\\Zeroz\\Reports\\20211111_084429\\Feature\\20211111_084429\\1636595135019.png, C:\\Users\\ASUS\\Katalon Studio\\Zeroz\\Reports\\20211111_084429\\Feature\\20211111_084429\\1636595175822.png"/>
+         <property name="hostName" value="ASUS - LAPTOP-1SCL03AA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="f0d1a78c7a90c2e7b34f2788b1fdba6e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Feature_add" time="15.396" classname="Test Cases/Feature_add" status="PASSED">
+         <system-out><![CDATA[2021-11-11 08:44:39 - [TEST_CASE][PASSED] - Test Cases/Feature_add: Test Cases/Feature_add
+
+2021-11-11 08:44:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-11 08:44:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-11 08:44:40 - [MESSAGE][INFO] - User set preference: ['property', '[--window-size=1920,1080]']
+
+2021-11-11 08:44:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 08:44:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-11 08:44:42 - [TEST_STEP][PASSED] - navigateToUrl("https://zeroz.glovory.site/"): Navigate to 'https://zeroz.glovory.site/' successfully
+
+2021-11-11 08:44:44 - [MESSAGE][PASSED] - Navigate to 'https://zeroz.glovory.site/' successfully
+
+2021-11-11 08:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler")): Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler' is clicked on
+
+2021-11-11 08:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler' is clicked on
+
+2021-11-11 08:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in")): Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in' is clicked on
+
+2021-11-11 08:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in' is clicked on
+
+2021-11-11 08:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name"), "van@glovory.com"): Text 'van@glovory.com' is set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name'
+
+2021-11-11 08:44:46 - [MESSAGE][PASSED] - Text 'van@glovory.com' is set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name'
+
+2021-11-11 08:44:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password"), "RAIVpflpDOg="): Text ****** has been set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password'
+
+2021-11-11 08:44:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password'
+
+2021-11-11 08:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/button_Sign in")): Object: 'Object Repository/Zeroz/Page_zeroz - Login/button_Sign in' is clicked on
+
+2021-11-11 08:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Login/button_Sign in' is clicked on
+
+2021-11-11 08:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features")): Object: 'Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features' is clicked on
+
+2021-11-11 08:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features' is clicked on
+
+2021-11-11 08:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz  Feature/a_Add New Feature")): Object: 'Object Repository/Zeroz/Page_zeroz  Feature/a_Add New Feature' is clicked on
+
+2021-11-11 08:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz  Feature/a_Add New Feature' is clicked on
+
+2021-11-11 08:44:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Zeroz/Page_zeroz  Feature/input__name"), "Zeroz Feature"): Text 'Zeroz Feature' is set on object 'Object Repository/Zeroz/Page_zeroz  Feature/input__name'
+
+2021-11-11 08:44:51 - [MESSAGE][PASSED] - Text 'Zeroz Feature' is set on object 'Object Repository/Zeroz/Page_zeroz  Feature/input__name'
+
+2021-11-11 08:44:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Zeroz/Page_zeroz  Feature/input__orders"), "2"): Text '2' is set on object 'Object Repository/Zeroz/Page_zeroz  Feature/input__orders'
+
+2021-11-11 08:44:52 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Zeroz/Page_zeroz  Feature/input__orders'
+
+2021-11-11 08:44:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Zeroz/Page_zeroz  Feature/textarea__details"), "The detail of zeroz feature"): Text 'The detail of zeroz feature' is set on object 'Object Repository/Zeroz/Page_zeroz  Feature/textarea__details'
+
+2021-11-11 08:44:53 - [MESSAGE][PASSED] - Text 'The detail of zeroz feature' is set on object 'Object Repository/Zeroz/Page_zeroz  Feature/textarea__details'
+
+2021-11-11 08:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz  Feature/button_Save")): Object: 'Object Repository/Zeroz/Page_zeroz  Feature/button_Save' is clicked on
+
+2021-11-11 08:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz  Feature/button_Save' is clicked on
+
+2021-11-11 08:44:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-11 08:44:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Feature_edit" time="40.138" classname="Test Cases/Feature_edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Feature_edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_edit.run(Feature_edit:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' located by '//tr[@id='row_16']/td[6]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-11-11 08:44:54 - [TEST_CASE][FAILED] - Test Cases/Feature_edit: Test Cases/Feature_edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_edit.run(Feature_edit:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' located by '//tr[@id='row_16']/td[6]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-11-11 08:44:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-11 08:44:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-11 08:44:55 - [MESSAGE][INFO] - User set preference: ['property', '[--window-size=1920,1080]']
+
+2021-11-11 08:44:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 08:44:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-11 08:44:56 - [TEST_STEP][PASSED] - navigateToUrl("https://zeroz.glovory.site/"): Navigate to 'https://zeroz.glovory.site/' successfully
+
+2021-11-11 08:44:57 - [MESSAGE][PASSED] - Navigate to 'https://zeroz.glovory.site/' successfully
+
+2021-11-11 08:44:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler")): Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler' is clicked on
+
+2021-11-11 08:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler' is clicked on
+
+2021-11-11 08:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in")): Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in' is clicked on
+
+2021-11-11 08:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in' is clicked on
+
+2021-11-11 08:44:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name"), "van@glovory.com"): Text 'van@glovory.com' is set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name'
+
+2021-11-11 08:45:00 - [MESSAGE][PASSED] - Text 'van@glovory.com' is set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name'
+
+2021-11-11 08:45:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password"), "RAIVpflpDOg="): Text ****** has been set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password'
+
+2021-11-11 08:45:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password'
+
+2021-11-11 08:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/button_Sign in")): Object: 'Object Repository/Zeroz/Page_zeroz - Login/button_Sign in' is clicked on
+
+2021-11-11 08:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Login/button_Sign in' is clicked on
+
+2021-11-11 08:45:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features")): Object: 'Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features' is clicked on
+
+2021-11-11 08:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features' is clicked on
+
+2021-11-11 08:45:03 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row")): Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_edit.run(Feature_edit:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' located by '//tr[@id='row_16']/td[6]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1636515093271.run(Script1636515093271.groovy:36)
+	... 13 more
+)
+
+2021-11-11 08:45:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='row_16']/td[6]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-11-11 08:45:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_edit.run(Feature_edit:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' located by '//tr[@id='row_16']/td[6]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1636515093271.run(Script1636515093271.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\Zeroz\\Reports\\20211111_084429\\Feature\\20211111_084429\\1636595135019.png]]]]></system-out>
+         <system-err><![CDATA[2021-11-11 08:44:54 - [TEST_CASE][FAILED] - Test Cases/Feature_edit: Test Cases/Feature_edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_edit.run(Feature_edit:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' located by '//tr[@id='row_16']/td[6]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Feature_delete" time="40.803" classname="Test Cases/Feature_delete" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Feature_delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_delete.run(Feature_delete:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37' located by '//tr[@id='row_16']/td[6]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-11-11 08:45:35 - [TEST_CASE][FAILED] - Test Cases/Feature_delete: Test Cases/Feature_delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_delete.run(Feature_delete:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37' located by '//tr[@id='row_16']/td[6]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-11-11 08:45:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-11 08:45:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-11 08:45:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-11 08:45:35 - [MESSAGE][INFO] - User set preference: ['property', '[--window-size=1920,1080]']
+
+2021-11-11 08:45:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 08:45:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-11 08:45:37 - [TEST_STEP][PASSED] - navigateToUrl("https://zeroz.glovory.site/"): Navigate to 'https://zeroz.glovory.site/' successfully
+
+2021-11-11 08:45:38 - [MESSAGE][PASSED] - Navigate to 'https://zeroz.glovory.site/' successfully
+
+2021-11-11 08:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler")): Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler' is clicked on
+
+2021-11-11 08:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler' is clicked on
+
+2021-11-11 08:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in")): Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in' is clicked on
+
+2021-11-11 08:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in' is clicked on
+
+2021-11-11 08:45:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name"), "van@glovory.com"): Text 'van@glovory.com' is set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name'
+
+2021-11-11 08:45:40 - [MESSAGE][PASSED] - Text 'van@glovory.com' is set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name'
+
+2021-11-11 08:45:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password"), "RAIVpflpDOg="): Text ****** has been set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password'
+
+2021-11-11 08:45:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password'
+
+2021-11-11 08:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz - Login/button_Sign in")): Object: 'Object Repository/Zeroz/Page_zeroz - Login/button_Sign in' is clicked on
+
+2021-11-11 08:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz - Login/button_Sign in' is clicked on
+
+2021-11-11 08:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features")): Object: 'Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features' is clicked on
+
+2021-11-11 08:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features' is clicked on
+
+2021-11-11 08:45:44 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37")): Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_delete.run(Feature_delete:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37' located by '//tr[@id='row_16']/td[6]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1636515207694.run(Script1636515207694.groovy:36)
+	... 13 more
+)
+
+2021-11-11 08:46:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='row_16']/td[6]/a[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-11-11 08:46:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_delete.run(Feature_delete:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37' located by '//tr[@id='row_16']/td[6]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1636515207694.run(Script1636515207694.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\Zeroz\\Reports\\20211111_084429\\Feature\\20211111_084429\\1636595175822.png]]]]></system-out>
+         <system-err><![CDATA[2021-11-11 08:45:35 - [TEST_CASE][FAILED] - Test Cases/Feature_delete: Test Cases/Feature_delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_delete.run(Feature_delete:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37' located by '//tr[@id='row_16']/td[6]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-11 08:44:39 - [TEST_SUITE][FAILED] - Feature: Test Cases/Feature_edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_edit.run(Feature_edit:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' located by '//tr[@id='row_16']/td[6]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-11-11 08:44:39 - [TEST_SUITE][FAILED] - Feature: Test Cases/Feature_edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Feature_edit.run(Feature_edit:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636595069192.run(TempTestSuite1636595069192.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row' located by '//tr[@id='row_16']/td[6]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

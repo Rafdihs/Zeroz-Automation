@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature,Chrome 95.0.4638.69,,,2021-11-11 08:44:39,2021-11-11 08:46:15,1m - 36.621s,FAILED
+,,,,,,,
+Test Cases/Feature_add,Chrome 95.0.4638.69,,,2021-11-11 08:44:39,2021-11-11 08:44:54,15.396s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-11 08:44:39,2021-11-11 08:44:42,2.466s,PASSED
+"navigateToUrl(""https://zeroz.glovory.site/"")",Chrome 95.0.4638.69,,,2021-11-11 08:44:42,2021-11-11 08:44:44,1.946s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler""))",Chrome 95.0.4638.69,,,2021-11-11 08:44:44,2021-11-11 08:44:44,0.559s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in""))",Chrome 95.0.4638.69,,,2021-11-11 08:44:44,2021-11-11 08:44:46,1.161s,PASSED
+"setText(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name""), ""van@glovory.com"")",Chrome 95.0.4638.69,,,2021-11-11 08:44:46,2021-11-11 08:44:46,0.880s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password""), ""RAIVpflpDOg="")",Chrome 95.0.4638.69,,,2021-11-11 08:44:46,2021-11-11 08:44:47,0.430s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/button_Sign in""))",Chrome 95.0.4638.69,,,2021-11-11 08:44:47,2021-11-11 08:44:47,0.359s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features""))",Chrome 95.0.4638.69,,,2021-11-11 08:44:47,2021-11-11 08:44:50,2.642s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz  Feature/a_Add New Feature""))",Chrome 95.0.4638.69,,,2021-11-11 08:44:50,2021-11-11 08:44:50,0.461s,PASSED
+"setText(findTestObject(""Object Repository/Zeroz/Page_zeroz  Feature/input__name""), ""Zeroz Feature"")",Chrome 95.0.4638.69,,,2021-11-11 08:44:50,2021-11-11 08:44:51,0.683s,PASSED
+"setText(findTestObject(""Object Repository/Zeroz/Page_zeroz  Feature/input__orders""), ""2"")",Chrome 95.0.4638.69,,,2021-11-11 08:44:51,2021-11-11 08:44:52,0.849s,PASSED
+"setText(findTestObject(""Object Repository/Zeroz/Page_zeroz  Feature/textarea__details""), ""The detail of zeroz feature"")",Chrome 95.0.4638.69,,,2021-11-11 08:44:52,2021-11-11 08:44:53,0.812s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz  Feature/button_Save""))",Chrome 95.0.4638.69,,,2021-11-11 08:44:53,2021-11-11 08:44:54,1.116s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-11 08:44:54,2021-11-11 08:44:54,0.637s,PASSED
+,,,,,,,
+Test Cases/Feature_edit,Chrome 95.0.4638.69,,,2021-11-11 08:44:54,2021-11-11 08:45:35,40.138s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-11 08:44:55,2021-11-11 08:44:56,1.255s,PASSED
+"navigateToUrl(""https://zeroz.glovory.site/"")",Chrome 95.0.4638.69,,,2021-11-11 08:44:56,2021-11-11 08:44:57,1.543s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler""))",Chrome 95.0.4638.69,,,2021-11-11 08:44:57,2021-11-11 08:44:58,0.636s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in""))",Chrome 95.0.4638.69,,,2021-11-11 08:44:58,2021-11-11 08:44:59,0.812s,PASSED
+"setText(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name""), ""van@glovory.com"")",Chrome 95.0.4638.69,,,2021-11-11 08:44:59,2021-11-11 08:45:00,0.870s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password""), ""RAIVpflpDOg="")",Chrome 95.0.4638.69,,,2021-11-11 08:45:00,2021-11-11 08:45:00,0.372s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/button_Sign in""))",Chrome 95.0.4638.69,,,2021-11-11 08:45:00,2021-11-11 08:45:01,0.355s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features""))",Chrome 95.0.4638.69,,,2021-11-11 08:45:01,2021-11-11 08:45:03,2.826s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default edit-row""))",Chrome 95.0.4638.69,,,2021-11-11 08:45:03,2021-11-11 08:45:35,31.260s,FAILED
+,,,,,,,
+Test Cases/Feature_delete,Chrome 95.0.4638.69,,,2021-11-11 08:45:35,2021-11-11 08:46:15,40.803s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-11 08:45:35,2021-11-11 08:45:37,1.847s,PASSED
+"navigateToUrl(""https://zeroz.glovory.site/"")",Chrome 95.0.4638.69,,,2021-11-11 08:45:37,2021-11-11 08:45:38,1.432s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Home_top-bar__navigation-toggler""))",Chrome 95.0.4638.69,,,2021-11-11 08:45:38,2021-11-11 08:45:39,0.478s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Invoicing System/a_Sign in""))",Chrome 95.0.4638.69,,,2021-11-11 08:45:39,2021-11-11 08:45:39,0.759s,PASSED
+"setText(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_user_name""), ""van@glovory.com"")",Chrome 95.0.4638.69,,,2021-11-11 08:45:39,2021-11-11 08:45:40,0.872s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/input_Sign in_password""), ""RAIVpflpDOg="")",Chrome 95.0.4638.69,,,2021-11-11 08:45:40,2021-11-11 08:45:41,0.366s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz - Login/button_Sign in""))",Chrome 95.0.4638.69,,,2021-11-11 08:45:41,2021-11-11 08:45:41,0.360s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz  Dashboard/a_Features""))",Chrome 95.0.4638.69,,,2021-11-11 08:45:41,2021-11-11 08:45:44,2.748s,PASSED
+"click(findTestObject(""Object Repository/Zeroz/Page_zeroz  Feature/a_The detail of zeroz feature_on-default re_391f37""))",Chrome 95.0.4638.69,,,2021-11-11 08:45:44,2021-11-11 08:46:15,31.722s,FAILED
